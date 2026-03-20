@@ -1,8 +1,3 @@
-# project-document-pipeline
-
-## `README.md`
-
-```md
 # PDF RAG Pipeline
 
 プロジェクト単位で `01_処理前` フォルダに格納した PDF を自動処理し、  
@@ -205,6 +200,3 @@ python run_pipeline.py workspace/projects --mode overwrite
 それを **PDF変換エンジンとして利用するラッパーパイプライン** です。
 
 変換後ファイルの整理、命名、README/manifest 生成、チャンク生成は本レポジトリ側で実装します。
-```
-
----
