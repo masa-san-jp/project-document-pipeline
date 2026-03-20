@@ -200,3 +200,10 @@ python run_pipeline.py workspace/projects --mode overwrite
 それを **PDF変換エンジンとして利用するラッパーパイプライン** です。
 
 変換後ファイルの整理、命名、README/manifest 生成、チャンク生成は本レポジトリ側で実装します。
+
+---
+
+## コントリビューター・エージェント向けガイドライン
+
+ブランチ戦略・ツール要件・コミット規約・レビューチェックリスト・よくある作業のランブックは、  
+**[docs/agent-guidelines.md](docs/agent-guidelines.md)** を参照してください。
