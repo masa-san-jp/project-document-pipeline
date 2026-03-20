@@ -1,0 +1,16 @@
+[project]
+name = "pdf-rag-pipeline"
+version = "0.1.0"
+description = "PDF文書自動処理・RAG素材生成ローカルパイプライン"
+requires-python = ">=3.10"
+dependencies = [
+    "opendataloader-pdf",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[project.scripts]
+pdf-rag-pipeline = "pipeline.main:main"
